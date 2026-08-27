@@ -1,0 +1,10 @@
+{
+  "name": "wechat-reader",
+  "version": "1.0.0",
+  "description": "pi extension: read WeChat Official Account articles (mp.weixin.qq.com) via curl_cffi TLS-fingerprint impersonation. Reads title, author, publish time, content, and image list without login or browser.",
+  "keywords": ["pi", "extension", "wechat", "mp.weixin.qq.com", "wechat-reader", "curl_cffi"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
